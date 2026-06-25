@@ -6,7 +6,7 @@
 
 ## What it does
 
-1. **Upload** any Excel (`.xlsx`, `.xls`, `.xlsm`) or CSV file.
+1. **Upload** any Excel (`.xlsx`, `.xls`, `.xlsm`) or CSV file.-Dummy data file stored
 2. **Auto-detects** Likert-style attitudinal variables as segmentation basis (you can override).
 3. **Cleans** the data — drops empty rows/cols, imputes missing with column median, removes zero-variance columns.
 4. **Clusters** respondents using K-Means with silhouette-based k selection (3 to 7), 50 random initializations, reproducible seed.
